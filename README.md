@@ -119,8 +119,8 @@ fleet-tracker/
      DB_HOST=127.0.0.1
      DB_PORT=3306
      DB_DATABASE=fleet_tracker
-     DB_USERNAME=your_user
-     DB_PASSWORD=your_pass
+     DB_USERNAME=root
+     DB_PASSWORD=1234
      ```
 
 4. **Generate app key**
@@ -171,6 +171,4 @@ Aplikasi akan tersedia di `http://127.0.0.1:8000`.
 | GET    | /reports/in-transit      | report shipments in transit per fleet|
 
 ---
-
-Dokumentasi ini membantu developer maupun tim operasional memahami struktur, cara setup, dan penggunaan aplikasi Fleet Tracker. 
 
